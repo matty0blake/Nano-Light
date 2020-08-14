@@ -1,0 +1,20 @@
+@keyframes buttonhover{
+from{}
+
+to{ background-image: radial-gradient(closest-side, lightblue, rgba(173, 216, 230, 0));
+}
+
+}
+
+@keyframes sectionsOpen{
+    from{
+        position: absolute;
+        left: -50%;
+        opacity: 0%;
+    }
+    to{
+        left:0%;
+        opacity: 100%;
+    }
+    
+}

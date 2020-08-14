@@ -1,0 +1,96 @@
+*{
+    margin: auto;
+    
+}
+.topMar10{
+    margin-top: 10vh;
+}
+body{
+    overflow-y: auto;
+    overflow-x: auto;
+    width: 100%;
+}
+header{
+    margin-top: 1%;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    
+}
+.logo{
+    width: 30%;
+    height: 100%;
+    left: 0;
+    position: absolute ;
+    
+    
+}
+
+.logo-header{
+    height: 100%;
+    position: absolute;
+    left: 10%;
+}
+
+.menu{
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    display: flex;
+}
+/*sarawa divy naw headera ka britia la divy  menu kann wa xwarawa opctiona kana wak home contact ...   */
+.menu-opt{
+    margin: auto;
+    color: darkorange;
+    padding: 20px 40px;
+    border-radius: 20px;
+
+  
+
+    
+
+}
+.menu-opt:hover{
+    background-color: turquoise;
+    padding: 20px 40px;
+    border-radius: 20px;
+    animation-name: buttonhover; 
+    animation-duration: 3s;
+    
+    background-image: radial-gradient(closest-side, rgba(173, 216, 230, 0.466), rgba(173, 216, 230, 0));
+    
+}
+
+.home,.understandCode,.collectExper,.learnSimple{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/back04.jpg);
+    background-size: 100%;
+    animation-duration: 2s;
+    left: 0;
+  
+}
+
+.learnFast{
+    width: 100%;
+    height: 100vh;
+    
+    background-color: whitesmoke;
+}
+.con-img{
+    position: relative;
+    margin-top: 21%;
+    left: 14px;
+    bottom: 0px;
+    
+}
